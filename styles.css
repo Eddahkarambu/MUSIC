@@ -73,6 +73,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
+    flex-grow: 1;
 }
 
 .title{
@@ -95,4 +96,13 @@ body{
     border-radius: .5rem;
     text-decoration: none;
     font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #2180d8;
+}
+.btn:focus{
+    background-color: #2796ff;
 }
