@@ -1,6 +1,8 @@
 # Author
 Eddah Karambu
 #### Description
+To get the latest albums released by your favourite musicians,you need to join Feel-the-music  by filling in the form; your name, email adress and password.
+Do not miss out!
 
 
 
@@ -9,12 +11,12 @@ Eddah Karambu
 
 ## Setup/Installation Requirements
 * Git clone this project at https://github.com/Eddahkarambu/MUSIC
-* Cd into DealaniStudio
+* Cd into MUSIC
 * open the project with atom by typing `atom .`
 * To view it in browser click `option + w` command
 
 ## Technologies Used
-This website uses  CSS, HTML, JavaScript, JQuery, Bootstrap.
+This website uses  CSS, HTML, .
 ## Support and contact details
 incase of any questions or  facing any difficulties you can  contact Eddah karambu via email.
 gikundaeddah@gmail.com
