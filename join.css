@@ -29,3 +29,73 @@
 .input-group:last-child{
     margin-bottom: 0;
 }
+.input-group label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.input-group input{
+    outline: none;
+    background: none;
+    border: 1px solid #2E3852;
+    font-size: 1em;
+    padding: .5em;
+    color: inherit;
+    border-radius: 5px;
+}
+
+.input-group input:focus{
+    border-color: #596da0;
+
+}
+@media (max-width:900px){
+    .join-main-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .join-form{
+        width: 80vw;
+        max-width: inherit;
+        margin: 2rem 0;
+    }
+
+}
+.join-page-circle-1{
+    position: absolute;
+    overflow: hidden;
+    width:25vw;
+    height: 25vw;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.join-page-circle-1::before{
+    content: '';
+    transform: translateX(-20%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgb(188, 58 , 128, .1);
+ 
+}
+.join-page-circle-2{
+    position: absolute;
+    overflow: hidden;
+    width:25vw;
+    height: 25vw;
+    top: 0;
+    left: 29vw;
+    z-index: -1;
+
+}
+.join-page-circle-2::before{
+    content: '';
+    transform: translateY(-20%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgb(52, 87 , 178, .1);
+ 
+}
